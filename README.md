@@ -1,6 +1,8 @@
 # SmeeAndAWX
 A short guide on how to get AWX webhooks behind a firewall with Smee.
 
+tl;dr Get Smee channel link, install smee, have ansible git repo POST to smee, run smee
+
 ## The Scenario
 As a new AWX user, I was excited to dive into basic CI/CD capabilites. It's all the rage and makes you seem cool. My goal was to get an AWX (poor man's Ansible Tower) job to run after a Git push, to our private Ansible GitHub repository.
 
