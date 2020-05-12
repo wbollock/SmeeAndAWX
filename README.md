@@ -18,11 +18,11 @@ First, go to https://smee.io/, and click "New Channel". Save that Smee URL. Inst
 
 Go to AWX/Ansible Tower. Find your job template you'd like to run on a git push (e.g dev run). Click "Enable Webhook."
 
-[Webhook Enable](awx_webhook.png)
+![Webhook Enable](awx_webhook.png)
 
 Head to GitHub, go to your repository, and select Settings -> Webhooks. Enter in your Smee URL, that acts as a proxy for your firewall'd AWX payload URL.
 
-[Github Settings](github_smee.png)
+![Github Settings](github_smee.png)
 
 To test, run the `smee-client` with:
 
